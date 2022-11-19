@@ -1,0 +1,24 @@
+{
+  "name": "netlify-plugin-mastodon-alias",
+  "version": "1.0.1",
+  "description": "Netlify build plugin to create a redirect from your site to your mastodon profile",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkundel/netlify-plugin-mastodon-alias.git"
+  },
+  "keywords": [
+    "netlify",
+    "mastodon"
+  ],
+  "author": "Dominik Kundel <hi@dominik.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkundel/netlify-plugin-mastodon-alias/issues"
+  },
+  "homepage": "https://github.com/dkundel/netlify-plugin-mastodon-alias#readme"
+}

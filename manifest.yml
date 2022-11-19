@@ -1,0 +1,13 @@
+# manifest.yml
+
+name: netlify-plugin-mastodon-alias
+inputs:
+  - name: username
+    description: Your Mastodon username, e.g. dkundel
+    required: true
+  - name: instance
+    description: Your Mastodon instance of your actual account, e.g. mastodon.social
+    required: true
+  - name: strictUsername
+    description: Redirect any request or just for the specified username.
+    required: false
